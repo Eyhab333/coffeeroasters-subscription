@@ -1,0 +1,324 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <title>Coffeeroasters | Plan</title>
+  <link rel="stylesheet" href="./styles.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght@9..144,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Home
+  About us
+  Create your plan -->
+
+  <main>
+
+    <nav id="mobile-nav-menu">
+
+      <img class="logo" src='./starter-code/assets/shared/desktop/logo.svg' alt="Company Logo">
+
+      <img id="open" class="hamburger" src="./starter-code/assets/shared/mobile/icon-hamburger.svg"
+        alt="Hamburger Logo">
+      <img id="close" class="hamburger" src="./starter-code/assets/shared/mobile/icon-close.svg" alt="Close Logo">
+
+      <div id="qwerty" class="links-container">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About us</a>
+        <a href="./plan.html">Create Your Plan</a>
+
+      </div>
+
+
+    </nav>
+
+    <div class="nav-container" id="mobile-menu">
+
+      <div class="links-container">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About us</a>
+        <a href="./plan.html">Create Your Plan</a>
+
+      </div>
+
+    </div>
+
+
+    <div id="plan-box" class="box-container">
+
+
+
+
+      <div class="content-wrapper">
+
+        <h1>Create a plan</h1>
+        <p>Build a subscription plan that best fits your needs. We offer an assortment of the best artisan coffees from
+          around the globe delivered fresh to your door.</p>
+
+      </div>
+
+    </div>
+
+
+    <div class="guide-container">
+
+      
+
+      <div class="guide-child">
+        <div class='bar pbar'>
+          <div class="circle pcircle"></Div>
+
+
+        </div>
+        <h2>01</h2>
+        <h3>Pick your<br id='br1'> coffee</h3>
+        <p>Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for
+          them. There's new coffees in all profiles every month for you to try out.</p>
+      </div>
+
+      <div class="guide-child">
+        <div id="barr" class='bar pbar'>
+          <div class="circle pcircle"></Div>
+            </div>
+
+        <h2>02</h2>
+        <h3>Choose the frequency</h3>
+        <p>Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your
+          subscription with no commitment through our online portal.</p>
+      </div>
+
+      <div class="guide-child">
+        <div id="last-line" class='bar pbar'>
+          <div class="circle pcircle"></Div>
+
+
+        </div>
+        <h2>03</h2>
+        <h3>Receive and enjoy!</h3>
+        <p>We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees
+          curated to provide a distinct tasting experience.</p>
+      </div>
+
+    </div>
+
+    <div class="desktop-wrapper">
+      <div class="desktop-nav-menu">
+
+        <p class="menu-p" data-target="0"><span class='prefSpan'>01</span> <span>Preferences</span></p>
+        <p class="menu-p" data-target="1"><span class='beanSpan'>02</span> <span>Bean type</span></p>
+        <p class="menu-p" data-target="2"><span class='quantitySpan'>03</span> <span>Quantity</span></p>
+        <p id="grindP" class="menu-p" data-target="3"><span class='grindSpan'>04</span> <span>Grind option</span></p>
+        <p class="menu-p" data-target="4"><span class='deliverySpan'>05</span> <span>Deliveries</span></p>
+
+      </div>
+
+      <div class="accordion">
+
+        <div id="scroll-heading" class="accordion-heading">
+          <h3 class="accordion-question">How do you drink<br> your coffee?</h3>
+          <img class="accordion-dropdown-button" src="./starter-code/assets/plan/desktop/icon-arrow.svg" alt=".">
+        </div>
+        <div class="accordion-body-container" data-target=".coffeeMethod">
+          <div id="capsuleChoice" class="accordion-body-card howCard activeMethod">
+            <h4 class="activeMethod">Capsule</h4>
+            <p class="activeMethod">Compatible with Nespresso systems and similar brewers</p>
+          </div>
+          <br>
+          <div class="accordion-body-card howCard activeMethod"> 
+            <h4 class="activeMethod">Filter</h4>
+            <p class="activeMethod">For pour over or drip methods like Aeropress, Chemex, and V60</p>
+          </div>
+          <br>
+          <div class="accordion-body-card howCard activeMethod">
+            <h4 class="activeMethod">Espresso</h4>
+            <p class="activeMethod">Dense and finely ground beans for an intense, flavorful experience</p>
+          </div>
+        </div>
+
+
+        <div class="accordion-heading">
+          <h3 class="accordion-question">What type of<br> coffee?</h3>
+          <img class="accordion-dropdown-button" src="./starter-code/assets/plan/desktop/icon-arrow.svg" alt=".">
+        </div>
+        <div class="accordion-body-container" data-target=".beanType">
+          <div class="accordion-body-card typeCard activeType">
+            <h4 class="activeType">Single origin</h4>
+            <p class="activeType" >Distinct, high quality coffee from a specific family-owned farm</p>
+          </div>
+          <br>
+          <div class="accordion-body-card typeCard activeType">
+            <h4 class="activeType">Decaf</h4>
+            <p class="activeType">Just like regular coffee, except the caffeine has been removed</p>
+          </div>
+          <br>
+          <div class="accordion-body-card typeCard activeType">
+            <h4 class="activeType">Blended</h4>
+            <p class="activeType">Combination of two or three dark roasted beans of organic coffees</p>
+          </div>
+        </div>
+
+        <div class="accordion-heading">
+          <h3 class="accordion-question">How much would<br> you like?</h3>
+          <img class="accordion-dropdown-button" src="./starter-code/assets/plan/desktop/icon-arrow.svg" alt=".">
+        </div>
+        <div id="amountCoffee" class="accordion-body-container" data-target=".coffeeAmount">
+          <div class="accordion-body-card amountCard activeAmount" data-weight="250g">
+    <h4 class="activeAmount">250g</h4>
+    <p class="activeAmount">Perfect for the solo drinker. Yields about 12 delicious cups.</p>
+</div>
+<br>
+<div class="accordion-body-card amountCard activeAmount" data-weight="500g">
+    <h4 class="activeAmount">500g</h4>
+    <p class="activeAmount">Perfect option for a couple. Yields about 40 delectable cups.</p>
+</div>
+<br>
+<div class="accordion-body-card amountCard activeAmount" data-weight="1000g">
+    <h4 class="activeAmount">1000g</h4>
+    <p class="activeAmount">Perfect for offices and events. Yields about 90 delightful cups.</p>
+</div>
+        </div>
+
+        <div id="groundContainer" class="accordion-heading">
+          <h3 class="accordion-question">Want us to grind<br> them?</h3>
+          <img class="accordion-dropdown-button" src="./starter-code/assets/plan/desktop/icon-arrow.svg" alt=".">
+        </div>
+        <div class="accordion-body-container groundBody" data-target=".groundType">
+          <div class="accordion-body-card groundCard activeGround">
+            <h4 class="activeGround">Wholebean</h4>
+            <p class="activeGround">Perfect for the solo drinker. Yields about 12 delicious cups.</p>
+          </div>
+          <br>
+          <div class="accordion-body-card groundCard activeGround">
+            <h4 class="activeGround">Filter</h4>
+            <p class="activeGround">Perfect option for a couple. Yields about 40 delectable cups.</p>
+          </div>
+          <br>
+          <div class="accordion-body-card groundCard activeGround">
+            <h4 class="activeGround">Cafetiere</h4>
+            <p class="activeGround">Perfect for offices and events. Yields about 90 delightful cups.</p>
+          </div>
+        </div>
+
+
+        <div class="accordion-heading">
+          <h3 class="accordion-question">How often should<br> we deliver?</h3>
+          <img class="accordion-dropdown-button" src="./starter-code/assets/plan/desktop/icon-arrow.svg" alt=".">
+        </div>
+        <div id="frequent" class="accordion-body-container" data-target=".frequency">
+          <div class="accordion-body-card lastType activeFrequency" data-frequency="Every Week">
+            <h4 class="activeFrequency">Every Week</h4>
+            <p class="activeFrequency"><span class='card-total'></span> per shipment. Includes free first class shipping.</p>
+
+          </div>
+          <br>
+          <div class="accordion-body-card lastType activeFrequency" data-frequency="Every 2 weeks">
+            <h4 class="activeFrequency">Every 2 weeks</h4>
+            <p class="activeFrequency"><span class='card-total'></span> per shipment. Includes free first class shipping.</p>
+
+          </div>
+          <br>
+          <div class="accordion-body-card lastType activeFrequency" data-frequency="Every month">
+            <h4 class="activeFrequency">Every month</h4>
+            <p class="activeFrequency"><span class='card-total'></span> per shipment. Includes free first class shipping.</p>
+
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+    <div class="summary-container">
+
+
+      <h5>Order Summary</h5>
+
+
+      <p id="instructions">Customize your <span>plan</span> with our range of options then come back to review your
+        choices!</p>
+
+      <p id="yourPlan">“I drink my coffee <span id='cChange'>as</span> <span class="coffeeMethod">....</span>, with a <span
+          class="beanType">....</span> type of
+        bean. <span class="coffeeAmount">...</span><span id='removeGround'> ground ala</span><span class="groundType">...</span><span id='comma'>,</span>
+        sent to me <span class='frequency'>...</span>.”</p>
+
+      
+
+    </div>
+
+
+    <button id="plan-button" disabled>Create my plan!</button>
+
+
+
+    <div id="footer-container" class="card-container">
+
+      <img class="logo foo" src="./starter-code/assets/shared/desktop/logo.svg" alt="Company Logo">
+      <div class="links-container foo">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About us</a>
+        <a href="./plan.html">Create your plan</a>
+
+      </div>
+
+      <div class="icon-container">
+
+        <a href="https://www.facebook.com/" target="_blank"><img
+            src="./starter-code/assets/shared/desktop/icon-facebook.svg" alt="Facebook Link"></a>
+        <a href="https://twitter.com/" target="_blank"><img src="./starter-code/assets/shared/desktop/icon-twitter.svg"
+            alt="Twitter Link"></a>
+        <a href="https://instagram.com/" target="_blank"><img
+            src="./starter-code/assets/shared/desktop/icon-instagram.svg" alt="Instagram Link"></a>
+
+
+
+      </div>
+
+    </div>
+
+    <div class="order-summary">
+
+      <div class="os-container">
+
+        <div class="os-heading">
+
+          <h2>Order Summary</h2>
+          <img class="close-summary" src="./starter-code/assets/shared/mobile/icon-close.svg" alt=".">
+        </div>
+        <p class="end-content">
+
+         
+
+        </p>
+        <p class="confirmation">Is this correct? You can proceed to checkout or go back to plan selection if something
+          is off. Subscription discount codes can also be redeemed at the checkout. </p>
+
+
+
+        <div class="btns-container">
+          <p class="total-cost">test</p>
+
+          <button>Checkout</button>
+        </div>
+      </div>
+
+    </div>
+
+
+    <modal class="modal"></modal>
+
+  </main>
+  <script src="./plan.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
